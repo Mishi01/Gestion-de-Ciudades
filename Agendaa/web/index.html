@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="ProcessCity" method="post">
+        <label for="name">name:</label><br>
+        <input type="text" id="name" name="name" ><br>
+        <label for="cc">Country Code:</label><br>
+        <input type="text" id="cc" name="cc"><br><br>
+        <label for="dist">District:</label><br>
+        <input type="text" id="dist" name="dist" ><br>
+        <label for="pop">Population:</label><br>
+        <input type="text" id="pop" name="pop"><br><br>
+        <input type="submit" value="Submit">
+        </form> 
+        
+        <br><br><br><br>
+        <form action="DeleteeCity" method="get">
+        <label for="pop">Population:</label><br>
+        <input type="text" id="popul" name="popul"><br><br>
+        <input type="submit" id="removeBtnGER" value="Remove Entry">
+        </form>
+        <br><br><br><br>
+        
+        <form action="UpdateCity" method="post">
+        <label for="set">Set new population:</label><br>
+        <input type="text" id="set" name="set" ><br>
+        <label for="country">To CountryCode:</label><br>
+        <input type="text" id="country" name="country"><br><br>
+        <input type="submit" id="updateBtnGER" value="Update Entry">
+        </form>
+    </body>
+</html>
